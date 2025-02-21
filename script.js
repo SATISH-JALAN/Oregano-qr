@@ -91,10 +91,24 @@ const facts = [
   "Bitcoin was the first cryptocurrency, launched in 2009.",
   "Ethereum introduced smart contracts in 2015.",
   "El Salvador was the first country to adopt Bitcoin as legal tender.",
+  "The mysterious creator of Bitcoin is known as Satoshi Nakamoto.",
+  "There will only ever be 21 million Bitcoins in existence.",
+  "Dogecoin started as a joke but became widely popular.",
+  "The first real-world Bitcoin transaction was for two pizzas in 2010.",
+  "NFTs (Non-Fungible Tokens) gained mainstream popularity in 2021.",
+  "China has banned cryptocurrency multiple times but remains a key player in mining.",
+  "Ethereum is moving from Proof-of-Work to Proof-of-Stake for better energy efficiency.",
+  "The most expensive NFT ever sold was over $69 million.",
+  "Over 20,000 different cryptocurrencies exist today.",
+  "Some countries are developing their own central bank digital currencies (CBDCs).",
+  "Bitcoin mining consumes more electricity than some countries.",
+  "Lightning Network enables faster and cheaper Bitcoin transactions.",
 ];
+
 function changeFact() {
   document.getElementById("cryptoFact").textContent =
     facts[Math.floor(Math.random() * facts.length)];
 }
+
 setInterval(changeFact, 5000);
 changeFact();
