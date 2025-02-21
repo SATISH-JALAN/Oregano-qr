@@ -3,18 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oregano Socials</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Oregano - Follow Us</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <canvas id="animated-bg"></canvas>
+    <div class="timer" id="timer"></div>
+
+
     <div class="container">
-        <h1>OREGANO</h1>
-        <p>Connect with us on social media</p>
+        <h1 class="title">OREGANO</h1>
+        
+        <p class="follow-text" id="followText"></p>  <!-- Typing Animation -->
+
         <div class="links">
-            <a href="https://www.instagram.com/oregano" target="_blank">Instagram</a>
+            <a href="https://v0-oregano-crypto-platform-v6svbn.vercel.app" target="_blank">Main Website</a>
             <a href="https://discord.com/invite/oregano" target="_blank">Discord</a>
-            <a href="https://twitter.com/oregano" target="_blank">X (Twitter)</a>
+            <a href="https://www.instagram.com/oregano" target="_blank">Instagram</a>
         </div>
     </div>
+    <p class="crypto-fact" id="cryptoFact">Loading fact...</p>
+</div>
+
+    <script src="script.js"></script>
 </body>
 </html>
